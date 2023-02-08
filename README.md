@@ -13,6 +13,11 @@ This repository contains core functionality needed to create Aptos Wallet.
 * Android API 26
 * Kotlin
 
+# Dependency
+```
+implement 'com.github.cosmostation:aptos-kotlin:0.0.1'
+```
+
 # Initialize
 Initialize for security
 ```kotlin

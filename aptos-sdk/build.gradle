@@ -72,7 +72,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.cosmostation'
-                artifactId = 'aptos-sdk'
+                artifactId = 'aptos-kotlin'
                 version = '0.0.1'
             }
         }
