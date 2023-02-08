@@ -43,9 +43,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        binding.getAccountResource.setOnClickListener {
+        binding.getAccountResources.setOnClickListener {
             CoroutineScope(Dispatchers.IO).launch {
-                AptosClient.api.getAccountResource(binding.address.text.toString()).execute().body()
+                AptosClient.api.getAccountResources(binding.address.text.toString()).execute().body()
             }
         }
 

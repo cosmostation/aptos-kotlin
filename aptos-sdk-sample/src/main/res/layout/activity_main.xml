@@ -42,11 +42,11 @@
         android:text="get account" />
 
     <Button
-        android:id="@+id/get_account_resource"
+        android:id="@+id/get_account_resources"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="get account resource" />
+        android:text="get account resources" />
 
     <Button
         android:id="@+id/get_transactions"

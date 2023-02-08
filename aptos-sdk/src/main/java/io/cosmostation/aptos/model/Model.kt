@@ -36,9 +36,9 @@ data class Signature(
 
 data class Account(var sequence_number: String, var authentication_key: String)
 
-data class AccountResource(var AccountResources: AccountResources)
+data class AccountResources(var AccountResources: AccountResource)
 
-data class AccountResources(
+data class AccountResource(
     @SerializedName("type") var type: String,
     @SerializedName("data") var data: Data
 )

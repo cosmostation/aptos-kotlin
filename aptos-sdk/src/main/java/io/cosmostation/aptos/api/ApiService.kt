@@ -33,7 +33,7 @@ interface ApiService {
     fun getAccount(@Path("address") address: String): Call<Account>
 
     @GET("/v1/accounts/{address}/resources")
-    fun getAccountResource(@Path("address") address: String): Call<List<AccountResource>>
+    fun getAccountResources(@Path("address") address: String): Call<List<AccountResources>>
 
     @GET("v1/accounts/{address}/transactions")
     fun getAccountTransactions(@Path("address") address: String): Call<List<Transaction>>
