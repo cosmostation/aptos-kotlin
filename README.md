@@ -1,8 +1,5 @@
 <img src="https://user-images.githubusercontent.com/85468864/217445684-125f0495-6f45-4c2d-b7ac-ed25a28477af.png" width="100%">
 
-# Aptos-swift
-https://github.com/cosmostation/aptos-swift
-
 # Overview
 This is an Aptos SDK that anyone can develop a wallet. It contributes to lowering entry barriers and vitalizing communities and networks. The quickest and easiest way to interact with Aptos!
 
@@ -77,3 +74,6 @@ Submit transaction
 ```kotlin
 AptosClient.api.submitTransaction(submitRequestMessage).execute()
 ```
+
+# Aptos-swift
+https://github.com/cosmostation/aptos-swift
